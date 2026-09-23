@@ -1,0 +1,32 @@
+{
+  "order": 2,
+  "title": "Procurify",
+  "subtitle": "Software Engineer Intern · Vancouver, BC",
+  "period": "Sep 2025 – Apr 2026",
+  "summary": "Faster exports, lower memory use, and more reliable integration workflows, alongside customer-facing React features.",
+  "tags": [
+    "React",
+    "TypeScript",
+    "Python",
+    "Django",
+    "FastAPI"
+  ],
+  "sections": [
+    {
+      "title": "Faster exports",
+      "body": "Cut database calls by **99% (3,200+ to 14)** and request latency by **25%** by removing N+1 SQL queries and introducing batched data retrieval."
+    },
+    {
+      "title": "Audit history at lower cost",
+      "body": "Reduced peak memory use by **84% (1.55 GB to 253 MB)** in the audit-log version-history pipeline by restructuring version-history construction around ID-based batching."
+    },
+    {
+      "title": "Reliable updates",
+      "body": "Eliminated a race condition in integration-status updates through row-level locking with PonyORM’s `get_for_update()`."
+    },
+    {
+      "title": "Customer-facing features",
+      "body": "Shipped React features and supporting APIs for account management and troubleshooting, collaborating with senior engineers, product, and design."
+    }
+  ]
+}

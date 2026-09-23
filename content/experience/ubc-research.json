@@ -1,0 +1,27 @@
+{
+  "order": 3,
+  "title": "University of British Columbia",
+  "subtitle": "Software Development – Research Assistant · Vancouver, BC",
+  "period": "Apr 2025 – Jul 2025",
+  "summary": "AI in finance: reproducing a published machine-learning preprocessing pipeline.",
+  "tags": [
+    "Machine learning",
+    "Data preprocessing"
+  ],
+  "sections": [
+    {
+      "title": "The work",
+      "body": "Replicated a published pipeline across 5-day and 60-day horizons. Accelerated 60-day preprocessing by approximately **25%** by reusing parsed market data and normalized price arrays."
+    },
+    {
+      "title": "The paper we replicated",
+      "body": "Our work replicated the pipeline from **(Re-)Imag(in)ing Price Trends**. The linked paper is the reference for that work."
+    }
+  ],
+  "links": [
+    {
+      "label": "Read the paper on SSRN",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3756587"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "order": 1,
+  "title": "Trulioo",
+  "subtitle": "Software Engineer Intern · Vancouver, BC",
+  "period": "May 2026 – Present",
+  "summary": "Improving service performance, observability, and modernization across .NET systems.",
+  "tags": [
+    "React",
+    "TypeScript",
+    "C#",
+    ".NET"
+  ],
+  "sections": [
+    {
+      "title": "Encryption performance",
+      "body": "Reduced peak memory use by **80.4%** and encryption/decryption time by **50%** in an internal encryption library by precomputing message size and replacing intermediate streams with one preallocated buffer."
+    },
+    {
+      "title": "Workflow observability",
+      "body": "Instrumented **5 workflows and 52 stages** with step-level execution timing, using AsyncLocal and an accessor abstraction to propagate context through asynchronous processing."
+    },
+    {
+      "title": "Production logging",
+      "body": "Reduced disk usage by **80%** across **9 services** by standardizing NLog retention and correcting archive rotation across date boundaries."
+    },
+    {
+      "title": "Service modernization",
+      "body": "Automated .NET 8-to-10 modernization across **7 services**, updated **20+ dependencies**, and remediated **30+ vulnerabilities** with a reusable coding-agent SKILL that generated review-ready merge requests."
+    }
+  ]
+}

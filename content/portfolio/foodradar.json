@@ -1,0 +1,38 @@
+{
+  "order": 2,
+  "title": "FoodRadar",
+  "subtitle": "Food inventory & camera-assisted scanning",
+  "period": "Apr 2025",
+  "summary": "A food inventory prototype built by a four-member team at BCS Hackathons, then expanded with UX refinements and authentication.",
+  "tags": [
+    "React",
+    "Node.js / Express",
+    "MongoDB",
+    "Google Cloud Vision",
+    "Chakra UI"
+  ],
+  "sections": [
+    {
+      "title": "My contribution",
+      "body": "I worked mainly on the backend during the hackathon as part of a four-member team. After the hackathon, I refined the user experience and added authentication."
+    },
+    {
+      "title": "The experience",
+      "body": "Add and remove inventory items manually, or capture an image with a webcam to receive labels from Google Cloud Vision. The prototype also includes an Ask lookup flow."
+    },
+    {
+      "title": "Full-stack implementation",
+      "body": "React and Chakra UI provide the interface, with Zustand for state management. Express and MongoDB handle backend data, with JWT and Google OAuth authentication."
+    },
+    {
+      "title": "Prototype boundaries",
+      "body": "The webcam stands in for an intended fridge-mounted camera. Recognition depends on lighting and image clarity. Returned labels are not filtered specifically for food, so non-food objects may also be suggested."
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/charrmint/FoodRadar"
+    }
+  ]
+}

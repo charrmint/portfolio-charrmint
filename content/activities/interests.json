@@ -1,0 +1,19 @@
+{
+  "order": 2,
+  "title": "Beyond the main quest",
+  "summary": "MMORPGs, a round of golf, a workout, or a friendly game on the court—these are some of my favorite ways to spend time away from work.",
+  "sections": [
+    {
+      "title": "MMORPGs & other games",
+      "body": "MMORPGs are a big part of my life. I’ve spent time in Guild Wars 2, Allods Online, Final Fantasy XIV, New World, ArcheAge, Ragnarok, and MapleStory, among others. They’re the inspiration behind this portfolio’s village. I also play other video games, including Valorant."
+    },
+    {
+      "title": "On the course & court",
+      "body": "I enjoy golf and playing badminton, tennis, and table tennis socially with friends."
+    },
+    {
+      "title": "Working out",
+      "body": "Working out is another regular interest—and it connects with the workout-tracking focus of Rep-Pilot."
+    }
+  ]
+}

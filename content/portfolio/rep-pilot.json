@@ -1,0 +1,46 @@
+{
+  "order": 1,
+  "title": "Rep-Pilot",
+  "subtitle": "Mobile-first workout tracking & progression",
+  "period": "Jun 2026 – Aug 2026",
+  "summary": "Plan reusable workouts, record every set, and get explainable recommendations for what to lift next.",
+  "tags": [
+    "Next.js",
+    "TypeScript",
+    "PostgreSQL",
+    "Supabase",
+    "Vitest"
+  ],
+  "sections": [
+    {
+      "title": "The experience",
+      "body": "Create workout templates, log set-level performance, and review training history and personal records. Session snapshots preserve the plan you started with, even if you edit the template later."
+    },
+    {
+      "title": "Progression with reasons",
+      "body": "A deterministic double-progression engine considers rep targets, effort, pain, and recent performance. It recommends increasing, maintaining, reducing, or reviewing the load, with explicit reasons. Pain triggers review, and repeated underperformance can trigger a reduction."
+    },
+    {
+      "title": "Data integrity",
+      "body": "A normalized PostgreSQL schema stores templates, sessions, exercises, and sets. Supabase row-level security isolates each user’s data. Completing a session and saving its progression recommendations happens in a single database RPC."
+    },
+    {
+      "title": "Engineering approach",
+      "body": "Business rules and validation live in feature modules behind thin Next.js routes. The pure progression engine is covered by Vitest tests; React Testing Library supports UI testing."
+    },
+    {
+      "title": "OpenAI explanations",
+      "body": "An OpenAI-powered explanation layer for translating the deterministic progression engine’s decisions into conversational language."
+    }
+  ],
+  "links": [
+    {
+      "label": "Live app",
+      "url": "https://rep-pilot.vercel.app/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/charrmint/Rep-Pilot"
+    }
+  ]
+}

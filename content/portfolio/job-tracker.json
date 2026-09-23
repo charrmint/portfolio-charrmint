@@ -1,0 +1,33 @@
+{
+  "order": 3,
+  "title": "JobTrackerApp",
+  "subtitle": "CPSC 210 class project · Java desktop application",
+  "summary": "A Java desktop application inspired by the friction of managing co-op and full-time applications in spreadsheets.",
+  "tags": [
+    "Java",
+    "Swing",
+    "JSON persistence",
+    "JUnit"
+  ],
+  "sections": [
+    {
+      "title": "The workflow",
+      "body": "Organize opportunities across interested, planned, applied, accepted, rejected, and past-deadline states. Add or remove jobs, update their status, and record accepted-offer details."
+    },
+    {
+      "title": "Keeping track",
+      "body": "The application includes deadline and follow-up notifications, a job table, and JSON save/load support so progress can be restored between sessions."
+    },
+    {
+      "title": "Implementation",
+      "body": "A Swing interface sits alongside a Java job model and JSON persistence classes. The repository includes JUnit tests and event logging."
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/charrmint/JobTrackerApp"
+    }
+  ],
+  "period": "Jan 2025 – Apr 2025"
+}

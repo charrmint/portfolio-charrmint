@@ -1,0 +1,41 @@
+# Generated output and dependencies
+node_modules/
+/dist/
+/content-data.js
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Local deployment state and previous hosted prototype
+.vercel/
+/mintvale-site/
+
+# Local agent and editor configuration
+.agents/
+.codex/
+.idea/
+.vscode/
+
+# Environment variables (keep shareable templates)
+.env
+.env.*
+!.env.example
+
+# Internal working notes; keep README.md, CONTENT.md, asset credits,
+# and content/**/*.md because some Markdown is published site content.
+/CONTENT_GAPS.md
+/CONTENT_SOURCES.md
+
+# OS files, logs, and temporary editor files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*.log
+*.swp
+*.swo
+*~
+
+# Local browser test artifacts
+/playwright-report/
+/test-results/

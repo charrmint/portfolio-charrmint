@@ -1,0 +1,34 @@
+{
+  "order": 1,
+  "title": "Hi, I’m Rutherford.",
+  "subtitle": "Computer science student · Software engineer · Charrmint on GitHub",
+  "summary": "I’m studying Computer Science at the University of British Columbia and working as a Software Engineer Intern at Trulioo. Before software, I spent three years in Unilever’s supply chain leadership program.",
+  "sections": [
+    {
+      "title": "What have I been building?",
+      "body": "My work focuses on backend services and database performance, including optimizing queries, reducing memory use, and improving reliability. I also build customer-facing interfaces with React. Outside my internships, I’ve built a workout tracker, a food inventory prototype, and a desktop job-search organizer."
+    },
+    {
+      "title": "What connects my experience?",
+      "body": "At Unilever, I worked across planning, manufacturing, customer service, and logistics. In software, I’ve continued working on practical problems: reducing expensive database queries, improving memory use, and making workflows easier to understand."
+    },
+    {
+      "title": "Why a little MMO world?",
+      "body": "MMORPGs are a big part of my life, so a village felt like a natural home for my portfolio. I’ve played Guild Wars 2, Allods Online, Final Fantasy XIV, New World, ArcheAge, Ragnarok, and MapleStory, among others. Welcome to my own little corner of that world."
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/charrmint"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rutherbc/"
+    }
+  ],
+  "image": {
+    "src": "images/rutherford-portrait.jpeg",
+    "alt": "Rutherford Calawagan smiling outdoors in a winter jacket"
+  }
+}

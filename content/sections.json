@@ -1,0 +1,26 @@
+{
+  "about": {
+    "title": "About Me",
+    "intro": "About Me"
+  },
+  "education": {
+    "title": "Education",
+    "intro": "Education"
+  },
+  "experience": {
+    "title": "Experience",
+    "intro": "Experience"
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "Projects"
+  },
+  "activities": {
+    "title": "Beyond work",
+    "intro": "Beyond work"
+  },
+  "contact": {
+    "title": "Say hello",
+    "intro": "Say hello"
+  }
+}

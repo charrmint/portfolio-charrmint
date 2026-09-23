@@ -1,0 +1,47 @@
+{
+  "order": 4,
+  "title": "Unilever",
+  "subtitle": "Unilever Future Leaders Programme (UFLP) – Supply Chain",
+  "period": "Aug 2021 – Jul 2024",
+  "summary": "A three-year accelerated leadership programme spanning manufacturing, integrated planning, customer experience, and logistics. Led production teams, delivered process improvements, and built tools to support operational decisions.",
+  "tags": [
+    "Team leadership",
+    "Focused Improvement",
+    "Supply chain",
+    "Data analysis",
+    "Python",
+    "Power BI"
+  ],
+  "sections": [
+    {
+      "title": "Manufacturing Excellence Executive",
+      "body": "**Feb 2024 – Jun 2024**\n\nLed the Dressings site’s Focused Improvement team, driving operational and process-improvement projects toward waste, efficiency, and cost targets."
+    },
+    {
+      "title": "Process Engineer",
+      "body": "**Sep 2023 – Jan 2024**\n\n- Applied Focused Improvement principles to address line-efficiency losses, achieving a **19% sustained efficiency improvement**.\n- Achieved **99% service level** during peak season.\n- Led a pilot cell team of **3 operators, 1 Focused Improvement engineer, and 1 PM engineer**."
+    },
+    {
+      "title": "First Line Manager",
+      "body": "**Feb 2023 – Sep 2023**\n\n- Managed a **70-person production-floor team** through the ramp-up of a newly launched factory, achieving **100% factory service level**.\n- Developed a product-monitoring tool to improve planning and shorten time to action."
+    },
+    {
+      "title": "Demand Excellence & Special Projects",
+      "body": "**Integrated Planning · Apr 2022 – Oct 2022**\n\n- Managed the initial to middle phases of a national demand dashboard combining sales, demand, supply, and customer data.\n- Analyzed demand data to maintain and improve forecast accuracy and bias.\n- Standardized and deployed the SKU rationalization process by improving indicators and process flow."
+    },
+    {
+      "title": "VMI & Improvement Projects",
+      "body": "**Customer Experience and Logistics · Aug 2021 – Mar 2022**\n\n- Designed and built **Project Snowden**, a semi-automatic data-analysis tool for customer-service insights, contributing to **92.5% secondary service level during Aug–Dec 2021**.\n- Managed the soft launch of **Locus**, a digital delivery-tracking system, across selected inbound and outbound truckers.\n- Managed inventory replenishment and provided service insights to business customers."
+    },
+    {
+      "title": "Data tools across rotations",
+      "body": "Delivered cross-functional projects, including a Python and Power BI tool that increased service level from **78% to 90%**."
+    }
+  ],
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rutherbc/"
+    }
+  ]
+}

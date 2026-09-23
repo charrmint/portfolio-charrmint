@@ -1,0 +1,13 @@
+{
+  "order": 1,
+  "title": "University of British Columbia",
+  "subtitle": "Bachelor of Computer Science · Vancouver, BC",
+  "period": "Sep 2023 – Dec 2027 (expected)",
+  "summary": "3.8 GPA · Dean’s List",
+  "sections": [
+    {
+      "title": "Foundations",
+      "body": "Relevant coursework: Algorithms & Data Structures, Computer Systems, Software Construction, and Models of Computation."
+    }
+  ]
+}

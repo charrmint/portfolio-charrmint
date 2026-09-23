@@ -1,0 +1,23 @@
+{
+  "order": 2,
+  "title": "My toolkit",
+  "summary": "Languages, frameworks, and infrastructure from my work and projects.",
+  "sections": [
+    {
+      "title": "Languages",
+      "body": "C#, Python, TypeScript / JavaScript, Java, C++, SQL, HTML / CSS."
+    },
+    {
+      "title": "Frameworks",
+      "body": ".NET, React, Next.js, Django, FastAPI, Node.js / Express."
+    },
+    {
+      "title": "Cloud & tools",
+      "body": "AWS (ECS, S3, RDS, SQS, Kinesis Data Streams), Docker, Bash, Git, GitHub, GitLab, CircleCI."
+    },
+    {
+      "title": "Databases & observability",
+      "body": "PostgreSQL, MySQL, MongoDB, Grafana, Kibana, Loki."
+    }
+  ]
+}

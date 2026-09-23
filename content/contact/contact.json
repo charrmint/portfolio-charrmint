@@ -1,0 +1,19 @@
+{
+  "order": 1,
+  "title": "Let’s connect.",
+  "summary": "Get in touch by email, connect on LinkedIn, or explore more of my work on GitHub.",
+  "links": [
+    {
+      "label": "Email Rutherford",
+      "url": "mailto:rbcalawagan.ca@gmail.com"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rutherbc/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/charrmint"
+    }
+  ]
+}
