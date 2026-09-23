@@ -150,14 +150,14 @@ function renderAtlas(selected){
  $('#atlas-nav').innerHTML=atlasKeys.map(k=>`<a href="#atlas/${k}" ${k===key?'aria-current="page"':''}>${content.escape(label(k))}</a>`).join('');
  $('#atlas-content').innerHTML=`<h1>${content.escape(label(key))}</h1>${key==='resume'?content.resume():content.section(key,true)}`;
  if(completed.size===5){atlasSeen=true;$('#atlas-button').classList.remove('atlas-new');$('#atlas-badge').textContent='READY';$('#atlas-button').setAttribute('aria-label','Atlas');}
- document.title=`${label(key)} — ${portfolio.site.name}’s Portfolio`;
+ document.title='Charrmint’s Portfolio';
 }
 function route(){if(location.hash==='#contact'&&!contactUnlocked()){location.hash='world';announce('The post office opens after you finish visiting all five story locations.');return;}cancelTravel();const k=location.hash.slice(1),isAtlas=k==='atlas'||k.startsWith('atlas/'),view=isAtlas?'atlas':places[k]?'journal':k==='world'?'world':'login';$$('.screen').forEach(s=>s.hidden=s.id!==view);$('#action-bar').hidden=view==='login'||view==='atlas';document.body.classList.toggle('in-adventure',view==='world'||view==='journal');document.body.classList.toggle('reading-atlas',view==='atlas');
  document.querySelector('.top-right a').href=view==='atlas'?'#atlas/contact':'#contact';
 
  if(places[k]){currentPlace=k;encountered.add(k);renderEncounter(k);}
  if(view==='world'){update();placePlayer(currentPlace);}
- document.title=`${places[k]?.name||'Your adventure'} — ${portfolio.site.worldName}`;
+ document.title='Charrmint’s Portfolio';
  if(view!=='world'){clearTimeout(rewardTimer);rewardTimer=null;$('#reward').hidden=true;}
  if(view==='atlas')renderAtlas(k.split('/')[1]);
  window.scrollTo(0,0);(view==='journal'?$('#chapter'):view==='atlas'?$('#atlas-content'):$('#main')).focus({preventScroll:true});
